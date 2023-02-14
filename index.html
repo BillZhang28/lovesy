@@ -2,16 +2,41 @@
 <html lang="zh" >
 <head>
   <meta charset="UTF-8">
-  <title>你好，世玉~</title>
+  <title>❤世玉❤</title>
   <link rel="stylesheet" href="./normalize.min.css">
 
+  <style>
+    	/*爱心飘落*/
+			.snowfall-flakes{
+				position:relative;
+				width:10px;
+				height:16px;
+			}
+			.snowfall-flakes:before,.snowfall-flakes:after{
+				content:"";
+				position:absolute;
+				left:0px;
+				top:0px;
+				display:block;
+				width:10px;
+				height:16px;
+				background:rgb(179, 66, 66);
+				border-radius:10px 10px 0 0;
+				transform:rotate(-45deg);
+			}
+			.snowfall-flakes:after{
+				left:4px;
+				transform:rotate(45deg);
+			}
+  </style>
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-
+<em style="font-size: 30px;"></em>
 <!-- partial -->
-  <script src='./jquery.min.js'></script><script  src="./script.js"></script>
-
+  <script src='./jquery.min.js'></script>
+  <script src='./snowfall.jquery.js'></script>
+  <script  src="./script.js"></script>
 </body>
 </html>
