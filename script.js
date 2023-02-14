@@ -47,7 +47,7 @@
     }
   };
 
-  $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\" style=\"font-size: 25px;\"></pre>");
+  $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\" style=\"font-size: 30px;\"></pre>");
 
   time = 60;
 
